@@ -57,7 +57,7 @@ def get_snowsql_config(
     import configparser
 
     snowsql_to_snowpark_config_mapping = {
-        'account': 'account',
+        'accountname': 'account',
         'username': 'user',
         'password': 'password',
         'rolename': 'role',

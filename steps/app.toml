@@ -1,0 +1,15 @@
+snowsql_config_path = "/Users/vshiv/.snowsql/config"
+snowsql_connection_name = "vshiv_hol_john"
+
+[default]
+input_parameters = "()"
+return_type = "string"
+name = "helloFunction"
+handler = "app.hello"
+file = "app.zip"
+
+[dev]
+database = "<DATABASE_NAME>"
+schema = "<SCHEMA_NAME>"
+warehouse = "<WAREHOUSE_NAME>"
+role = "<ROLE_NAME>"
